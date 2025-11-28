@@ -14,10 +14,11 @@ body {
 }
 
 header {
+    transition: all 0.3s ease;
     text-align: center;
-    background: linear-gradient(to right, #28a745, #20c997);
+    background: linear-gradient(to right, #4605ae , oklch(46.259% 0.25816 287.683 / 0.736));
     color: white;
-    padding: 20px;
+    padding: 90px;
     border-radius: 8px;
     margin-bottom: 30px;
 }
@@ -42,7 +43,7 @@ section {
 
 h2 {
     margin-bottom: 20px;
-    color: #28a745;
+    color: #210458;
 }
 
 .form-group {
@@ -67,12 +68,12 @@ input, select {
 
 input:focus, select:focus {
     outline: none;
-    border-color: #28a745;
+    border-color: #210458;
     box-shadow: 0 0 5px rgba(40, 167, 69, 0.3);
 }
 
 input:invalid, select:invalid {
-    border-color: #dc3545;
+    border-color: #0056b3;
 }
 
 .checkbox-group {
@@ -87,7 +88,7 @@ input:invalid, select:invalid {
 
 .btn-submit, .btn-reembolso {
     width: 100%;
-    background-color: #28a745;
+    background-color: #6610f2bf;
     color: white;
     padding: 12px;
     border: none;
@@ -98,7 +99,7 @@ input:invalid, select:invalid {
 }
 
 .btn-submit:hover, .btn-reembolso:hover:not(:disabled) {
-    background-color: #218838;
+    background-color: #150339;
 }
 
 .btn-reembolso:disabled {
@@ -109,7 +110,7 @@ input:invalid, select:invalid {
 #totalReembolso {
     font-size: 1.2em;
     font-weight: bold;
-    color: #28a745;
+    color: #210458;
     margin-bottom: 15px;
     text-align: center;
 }
@@ -197,7 +198,7 @@ th {
 }
 
 .btn-cancelar:hover {
-    background-color: #5a6268;
+    background-color: #49566082;
 }
 
 .btn-editar {
@@ -215,7 +216,7 @@ th {
 }
 
 .check-icon {
-    color: #28a745;
+    color: #007bff;
     font-weight: bold;
     font-size: 1.2em;
 }
@@ -223,7 +224,7 @@ th {
 footer {
     text-align: center;
     margin-top: 40px;
-    color: #777;
+    color: #0f0e0e;
     font-size: 14px;
 }
 
@@ -267,7 +268,7 @@ footer {
 
 /* Acessibilidade */
 input:focus, select:focus, button:focus, .btn-excluir:focus, .btn-editar:focus {
-    outline: 2px solid #28a745;
+    outline: 2px solid #6610f2;
 }
 
 @media (prefers-reduced-motion: reduce) {
